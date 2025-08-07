@@ -1,0 +1,1494 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1075px) {
+    #top_nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #top_nav_child1 {
+        width: 50%
+    }
+
+    #top_nav_child2 {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    #nava {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .first-nava {
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+    }
+
+    .second-nava {
+        flex-direction: row;
+        width: 100%;
+        display: block;
+    }
+
+    #fab {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .all {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box {
+        flex-direction: row;
+        width: 100%;
+        gap: 50px;
+    }
+
+    #part {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex-box {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .first {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .niche {
+        flex-direction: column;
+        position: absolute;
+        margin-top: 280px;
+        margin-left: 40px;
+    }
+
+    .first-img {
+        flex-direction: column;
+        width: 350px;
+        height: 340px;
+        position: relative;
+        padding-left: 100px;
+    }
+
+    .second {
+        flex-direction: column;
+        width: 100%;
+        height: 400px
+    }
+
+    .font {
+        flex-direction: column;
+        line-height: 50px;
+    }
+
+    .second-two {
+        flex-direction: row;
+        margin-top: -40px;
+        height: fit-content;
+    }
+
+    .third {
+        flex-direction: column;
+        height: 520px;
+        /* padding:; */
+    }
+
+    .third-one {
+        flex-direction: row;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    #hello {
+        flex-direction: column;
+        width: 100%;
+        font-family: Poppins, sans-serif;
+    }
+
+    .hello-one {
+        flex-direction: column;
+        width: 100%;
+        font-family: Poppins, sans-serif;
+    }
+
+    .for {
+        flex-direction: column;
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    .bunter {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .video {
+        flex-direction: column;
+        width: 70%;
+        height: 60%;
+        margin-top: 40px;
+
+    }
+
+    #best {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 70px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .best-one {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 35px;
+        height: 10%;
+    }
+
+    #down {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+
+    .down-one {
+        flex-direction: column;
+        height: fit-content
+            /* width:100%; */
+    }
+
+    .down-two {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    /* .second-two-img{
+        flex-direction: row;
+        width: 100%;
+    } */
+    .down-three {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .imgBox {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* #villa{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .villa-do{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .villa-child{
+        width:30%
+    } */
+
+    .villa-child1 {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .villa-child2 {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .villa-child3 {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        height: auto;
+        margin-top: 800px;
+        text-align: center;
+    }
+
+    .footer-child {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    #top_nav {
+        display: none !important;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .simg {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+
+        position: relative;
+    }
+
+    .container {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .second-nav-child2 {
+        display: none;
+    }
+
+    .second-nav-child3 {
+        display: none;
+    }
+
+    .second-nav-child {
+        float: left;
+        margin-left: 100px;
+    }
+
+    #part {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* padding-left: 150px;
+        padding-right: 150px; */
+    }
+
+    .flex-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .first {
+        width: 100%;
+    }
+
+    .niche {
+        position: absolute;
+        margin-top: 540px;
+    }
+
+    .first-img {
+        width: 100%;
+        height: 600px;
+        margin-left: -20px;
+        position: relative
+    }
+
+    .second {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .second-one {
+        width: 100%;
+        /* padding-left: 50px; */
+        margin-top: 50px;
+        padding-right: 50px;
+        flex-direction: row;
+    }
+
+    .font {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .second-two {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 50px;
+        margin-top: -80px;
+        flex-direction: row;
+    }
+
+
+
+    .third {
+        flex-direction: column;
+        width: 88%;
+        margin-left: 45px;
+    }
+
+    .box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hello {
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+    }
+
+    .hello-one {
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
+
+    .video {
+        width: 70%;
+        height: auto;
+        margin-top: 80px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .tringal {
+        flex-direction: column;
+        position: absolute;
+        margin-top: 120px;
+    }
+
+    .bunter {
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+    }
+
+    #best {
+        flex-direction: row;
+        margin-top: 160px;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .best-one {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .sche {
+        flex-direction: column;
+        width: 220px;
+        height: 50px;
+        float: left;
+        line-height: 50px;
+        border-radius: 30px;
+
+    }
+
+    #calender {
+        float: left;
+        height: 50px;
+        width: 50px;
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+
+
+
+    .one-child {
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        top: 100px;
+    }
+
+    .one-child1 {
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        margin-top: 90px;
+    }
+
+    .child-child {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    .child-child1 {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    .child-child2 {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    #down {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .down-one {
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        text-align: left;
+
+    }
+
+    .down-two {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .second-two-img {
+        flex-direction: column;
+        width: 100%;
+        height: 650px
+    }
+
+    .down-three {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    #proper {
+        flex-direction: column;
+        display: flex;
+    }
+
+    #Villa {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        gap: 10px
+    }
+
+    .villa-do {
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .villa-child {
+        flex-direction: column;
+        width: 40%;
+        height: auto;
+
+
+    }
+
+    .villa-child1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* font-size: 16px; */
+    }
+
+    .villa-child2 {
+        width: 100%;
+        display: flex;
+    }
+
+    .villa-child3 {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+
+    .villa-child3 ul li {
+        flex-direction: row;
+    }
+
+    .li-flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        line-height: -0px;
+        /* margin-top: 20px; */
+    }
+
+    .botton {
+        flex-direction: row;
+    }
+
+
+    #word {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .word-child1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .letter {
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        height: auto;
+        justify-content: center;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .letter-child1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .letter-child1-1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .iframe {
+        width: 100%;
+        height: 500px;
+    }
+
+    .letter-child1-2 {
+        flex-direction: row;
+        display: block;
+        width: 100%;
+    }
+
+    #note {
+        margin-top: 20px;
+    }
+
+    .letter-child2 {
+        flex-direction: column;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .enput {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .message {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:770px) {
+    .all {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 0px
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .nav-container {
+        flex-direction: row;
+        display: block;
+    }
+
+    .menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: #333;
+        flex-direction: column;
+        display: none;
+    }
+
+    .menu a {
+        padding: 15px;
+        border-top: 1px solid #444;
+        display: flex;
+        height: 10px;
+        gap: 10px
+    }
+
+    .men {
+        display: block;
+    }
+
+    .home {
+        color: black;
+    }
+
+    .top {
+        display: none;
+        background-color: #333;
+        color: #333;
+    }
+
+
+    #toggle:checked+.hamburger+.menu {
+        display: flex;
+    }
+
+
+
+
+
+    .hamburger {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin-top: -30px
+    }
+
+    /* .menu {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: white;
+    } */
+
+    #toggle:checked~.menu {
+        display: flex;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+
+
+
+
+
+
+    #nav {
+        flex-direction: row;
+        display: none;
+        width: 100%;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    #nav-child1 {
+        flex-direction: row;
+        display: block;
+    }
+
+    #nav-child2 {
+        flex-direction: column;
+        display: block;
+    }
+
+    .nav-child {
+        flex-direction: column;
+        display: block;
+    }
+
+    .child-simg {
+        flex-direction: column;
+        font-family: 'Poppin', sans-serif;
+        width: 80%;
+    }
+
+    .hurry {
+        flex-direction: row;
+        width: 82%;
+    }
+
+    #part {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 80px;
+    }
+
+    .flex-box {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .first {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0%;
+    }
+
+    .first-img {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-right: 10px;
+    }
+
+    .niche {
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        margin-top: 810px;
+        z-index: 2;
+        margin-left: 15px;
+    }
+
+    .second {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 75px;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .second-one {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 37x;
+    }
+
+    .font {
+        width: 73%;
+    }
+
+    .second-two {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .third {
+        flex-direction: column;
+        width: 92%;
+        height: 550px;
+        margin-left: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+
+    #hello {
+        flex-direction: column;
+        width: 100%;
+        height: 540px;
+    }
+
+    .hello-one {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .for {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .for h1 {
+        flex-direction: column;
+        width: 95%;
+        margin-top: 50px;
+    }
+
+    .bunter {
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
+        margin-top: 100px;
+    }
+
+    .video {
+        height: 300px;
+        flex-direction: column;
+        position: relative;
+        border-radius: 10px;
+        width: 90%;
+        margin-top: -30px;
+    }
+
+    .box-fat {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box-child {
+        flex-direction: column;
+    }
+
+    .best-fat {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #best {
+        flex-direction: column;
+        width: 100%;
+        /* height: 890px; */
+        /* height: 100%; */
+        /* padding: 40px !important; */
+        padding: 40px;
+    }
+
+    #down {
+        flex-direction: column;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 60px;
+    }
+
+    .down-one {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .down-two {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .second-two-img {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .down-three {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .visit {
+        flex-direction: row;
+        font-family: 'poppins', sans-serif;
+        font-size: 10px;
+        top: 20px;
+    }
+
+    #proper {
+        flex-direction: column;
+        /* height: auto; */
+        width: 100%;
+        font-family: 'Poppins' sans-serif;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .proper-one {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        font-family: 'Poppins' sans-serif;
+    }
+
+    .proper-one-child {
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        padding-bottom: 50px;
+    }
+
+    .proper-one h1 {
+        width: 90%;
+    }
+
+    #Villa {
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+    }
+
+    .villa-do {
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        /* gap: 40px; */
+
+
+    }
+
+    .villa-child {
+        flex-direction: column;
+        width: 335px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .villa-child1 {
+        flex-direction: row;
+        width: 100%;
+        font-family: Poppins, sans-serif;
+    }
+
+    .villa-child2 {
+        flex-direction: column;
+        width: 100%;
+        font-family: Poppins, sans-serif;
+    }
+
+    .villa-child3 {
+        flex-direction: row;
+        width: 100%;
+        gap: 2px;
+        font-family: Poppins, sans-serif;
+        font-size: 13px;
+    }
+    .villa-child3 ul{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .write {
+        flex-direction: column;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .second {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .second-one {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .flex-box {
+        display: block;
+    }
+
+    #hello {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hello-one {
+        flex-direction: column;
+        width: 100%;
+        height: 300px;
+        margin-top: 95px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 70px;
+    }
+
+    .for {
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        width: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .box-fat {
+        width: 100%;
+        /* height:400px; */
+
+    }
+
+    .box {
+        flex-direction: column;
+        /* background-color: aqua; */
+        width: 100%;
+        height: 390px;
+        gap: 50px
+            /* height: 300px; */
+
+    }
+
+    #tringal {
+        position: absolute;
+        margin-top: -5px;
+    }
+
+    /* .li-flex {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 30px;
+    } */
+
+    .one-child {
+        flex-direction: row;
+        width: 100%;
+        top: 100px;
+        height: 100px;
+    }
+
+    .one-child1 {
+        width: 100%;
+    }
+
+    .child-child {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    .child-child1 {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    .child-child2 {
+        flex-direction: row;
+        height: 50px;
+    }
+
+    #word {
+        flex-direction: row;
+        width: 100%;
+        height: auto;
+    }
+
+    .text1 {
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .text2 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: -40px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .letter {
+        flex-direction: column;
+        width: 100%;
+        display: block;
+        height: auto;
+        gap: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 60px;
+    }
+
+    .letter-child1 {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .letter-child1-1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .letter-child1-2{
+        display: block;
+    }
+
+    .note{
+        width: 100%;
+        padding-top: 35px;
+    }
+
+    .letter-child2 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 50px;
+    }
+
+    .footer-child {
+        flex-direction: column;
+        width: 100%;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .all {
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    /* .hamburger{
+        margin-right: 300px;
+    } */
+
+    .fir {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    #part {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 100px;
+        padding: 0%;
+    }
+
+    .flex-box {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .first {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .first-img {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 10px;
+        margin-left: 0;
+        position: relative;
+    }
+
+    .niche {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 270px;
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    .second {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 70px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .second-one {
+        flex-direction: column;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .font {
+        flex-direction: column;
+        width: 70%;
+        margin-top: 25px;
+    }
+
+    .second-two {
+        font-family: 'Poppins', sans-serif;
+        flex-direction: column;
+        width: 100%;
+        padding-right: 10px;
+        margin-top: 25px;
+        line-height: 20px;
+    }
+
+    .third {
+        flex-direction: column;
+        width: 92%;
+        height: 520px;
+        margin-left: 12px;
+    }
+
+    .third-one {
+        flex-direction: row;
+        width: 100%;
+        height: 80px;
+    }
+
+    #hello {
+        flex-direction: column;
+        width: 100%;
+        height: 700px;
+    }
+
+    .hello-one {
+        flex-direction: column;
+        width: 100%;
+        height: 100px
+    }
+
+    .for {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .bunter {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .video {
+        flex-direction: column;
+        width: 90%;
+        position: relative;
+        margin-top: 20px;
+        height: 140px;
+    }
+
+    .tringal {
+        flex-direction: column;
+    }
+
+    .box-fat {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .box {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .best-fat {
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+    }
+
+    #best {
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .best-one {
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        width: 100%;
+    }
+
+    .one-child {
+        font-family: 'Poppins', sans-serif;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .one-child1 {
+        /* flex-direction: row; */
+        width: 100%;
+        display: flex;
+        margin-top: 200px;
+        flex-wrap: wrap;
+        min-width: 100px;
+    }
+
+    #down {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .down-one {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .black {
+        font-size: 20px;
+    }
+
+    #villa {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .villa-do {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .villa-child {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .villa-child3 ul {
+        width: 100%;
+    }
+
+    .word {
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+    }
+
+    .word-child1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* .li-flex{
+        flex-direction: row;
+        width: 100%;
+        display: flex;
+        gap:2px;
+        font-size: 10px;
+        flex-wrap: wrap;
+    } */
+
+    .word-img {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .text1 {
+        flex-direction: row;
+        font-weight: 900;
+        width: 100%;
+        margin-top: -10px;
+        font-size: 15px;
+    }
+
+    .text2 {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1px;
+        font-weight: bolder;
+    }
+
+    .letter {
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height:auto;
+        margin-top: -220px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+    }
+
+    .letter-child1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .letter-child1-1 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .iframe {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        height: auto;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-top: 1505px;
+        text-align: center;
+    }
+
+    .footer-child {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+}

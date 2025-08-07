@@ -1,0 +1,160 @@
+<html>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: arial;
+            padding: 10px;
+            background: #f1f1f1;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px;
+            background: turquoise;
+        }
+
+        .header h1 {
+            font-size: 50px;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .topnav a {
+            display: block;
+            float: left;
+            padding: 14px 16px;
+            color: white;
+            text-align: center;
+            text-decoration: none
+        }
+
+        .topnav a:hover {
+            background-color: green;
+            color: red;
+        }
+
+        .leftcolumn {
+            width: 100%;
+        }
+
+        .leftcolumn img {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+        }
+
+        .fakeimg {
+            background-color: red;
+            width: 100%;
+            padding: 20px;
+            height: 200px;
+        }
+
+        .card {
+            background-color: rgb(24, 112, 188);
+            padding: 20px;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .row::after{
+            content: "";
+            display:table;
+            clear:both;
+        }
+        .footer{
+                background-color: antiquewhite;
+                padding:20px;
+                text-align: center;
+                margin-top: 20px;
+            }
+        
+        @media screen and (max-width:700px){
+        .leftcolumn,.rightcolumn {
+            width:100%;
+            padding:0;
+        }
+        }
+        @media screan and (max-width:400px) {
+            .topnav a{
+                float:none;
+                width:100%;
+            }
+        }
+            
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>My webside</h1>
+        <p>We have made this webside</p>
+    </div>
+    <div class="topnav">
+        <a href="https://www.youtube.com/">youtube</a>
+        <a href="https://www.facebook.com/">facebook</a>
+        <a href="https://www.instagram.com/">instra</a>
+        <a href="https://www.snapchat.com/" style="float:right">snapchat</a>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>M O N E Y</h2>
+                <H5>How To Earn Money</H5>
+                <div class="fakeimg" style="height: 200px;">   <img src="photo.jpg" alt="" style="width:50%;height: 100%;" ></div>
+          
+                    <p>So,let's get started</p>
+                    <p>First,we will create webside,and than we will sell it
+                        either you to a bca and learn web devloper and then get a jop
+                        at a company and you will earn some money save that money than
+                        use that money to do an mca an your mca will be complet in two
+                        year but make sure to it from a good university.
+                    </p>
+                
+            </div>
+            <div class="card">
+                <h2>M O N E Y</h2>
+                <H5>How To Earn Money</H5>
+                <div class="fakeimg" style="height:200px;"><img src="money_tree.jpg"alt="" style="width:50%;height: 100%;"></div>
+                <p>So,let's get started</p>
+                    <p>First,we will create webside,and than we will sell it
+                        either you to a bca and learn web devloper and then get a jop
+                        at a company and you will earn some money save that money than
+                        use that money to do an mca an your mca will be complet in two
+                        year but make sure to it from a good university.
+                    </p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2>Believe me</h2>
+                <h5>You will have to trust us</h5>
+                <div class="fakeimg" style="height: 200px;"><img src="   "></div>
+                <p>if you want to be successfull,listen to me-I will make you success</p>
+            </div>
+                <div class="card">
+                    <h3>Time is money</h3>
+                    <div class="fakeimg"><p>Image</p></div>
+                    <div class="fakeimg"><p>Image</p></div>
+                    <div class="fakeimg"><p>Image</p></div>
+                </div>
+                <div class="card">
+                    <h3>believe to me</h3>
+                    <p>Let's go after succes</p>
+                </div>
+        </div>
+    </div>
+        <div class="footer">
+            <h2>Footer</h2>
+        </div>
+</body>
+
+</html>

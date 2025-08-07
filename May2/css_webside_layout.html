@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <style>
+            *{
+                box-sizing:border-box;
+            }
+            body {
+                margin:0;
+            }
+            .header{
+                background-color:#f1f1f1;
+                text-align: center;
+                padding: 20px;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+            }
+            .topnav a {
+                float: left;
+                color:#f3f3f3;
+                display: block;
+                text-decoration:none; 
+                padding: 16px 14px;
+                text-align: center;
+            }
+            .topnav a :hover{
+                background-color:#ddd;
+                color:black;
+            }
+            .column {
+                float: left;
+                padding: 10px;
+            }
+            .column.side {
+                width:25%;
+                text-align: start;
+            }
+            .middle {
+                width: 50%;
+                text-align: start;
+            }
+            .column.sidebar {
+                width: 25%;
+                text-align: start;
+            }
+            .row::after{
+                content:"";
+                display: flex;
+                clear: both;
+            }
+            .footer{
+                background-color:#ff3f;
+                text-align: center;
+                padding: 20px;
+            }
+            @media screen and (max-width:600px) {
+                .column {
+                    width: 100%;
+                }
+           }
+        </style>
+    </head>
+    <body>
+        
+            <div class="header">
+                <h1>header</h1>
+            
+            <div class="topnav">
+                <a href="https://www.youtube.com/">link</a>
+                <a href="https://www.instagram.com/">link</a>
+                <a href="link">link</a>
+            </div>
+        <div class="row">    
+            <div class="column side">
+                <h1>column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit
+                amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget 
+                elementum magna tristique. Quisque vehicula, risus eget aliquam 
+                placerat, purus leo tincidunt eros, eget luctus .</p>
+            </div>
+            <div class="column middle">
+                <h1>column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit
+                amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget 
+                elementum magna tristique. Quisque vehicula, risus eget aliquam 
+                placerat, purus leo tincidunt eros, eget luctus quam orci in
+                velit. Praesent scelerisque.</p>
+            </div>
+            <div class="colunm sidebar">
+                <h1>column</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit
+                amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget 
+                elementum magna tristique. Quisque vehicula, risus eget aliquam 
+                placerat, purus leo tincidunt eros
+             .</p>
+            </div>
+        </div>
+            <div class="footer">
+                <h1>footer</h1>
+            </div>
+    </body>
+</html>
